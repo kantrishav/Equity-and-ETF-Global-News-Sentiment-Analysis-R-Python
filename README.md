@@ -1,4 +1,6 @@
 # Equity-and-ETF-Global-News-Sentiment-Analysis-R-Python
+![Screenshot 2023-12-22 041613](https://github.com/kantrishav/Equity-and-ETF-Global-News-Sentiment-Analysis-R-Python/assets/28995985/64d5732c-9160-4034-b530-9798eba00175)
+
 More than eight-in-ten U.S. adults (86%) say they get news from a smartphone, computer or tablet. Stock news and editorials are one of the biggest source of information on companies financials , goals , outreach , environment commitment , downsides and many more attributes. An attentive investor wants to read as many editorial and news blogs on their favorite equities , ETFs or any other assest and debt class.
 Mostly , a average person can read maximun 3-5 news blogs daily. 
 As a human it is difficult to read all news available on internet before taking any market decision. 

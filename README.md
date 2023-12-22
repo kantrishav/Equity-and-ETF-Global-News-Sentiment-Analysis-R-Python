@@ -26,7 +26,7 @@ One crucial aspect of this model is the incorporation of the Affin lexicon, a po
 
 The R block code is also built to tackle non-working website that can't be scrapped. Websites which passes via this block is used for generating insights.
 
-##Step 1: Data Collection
+#Step 1: Data Collection
 
 Package Installation: The required R packages (textdata, tidyRSS, rvest, urltools, tibble, tidytext, dplyr, ggplot2, cowplot, wordcloud2) are installed.
 
@@ -36,7 +36,7 @@ Data Loading: The code reads a CSV file named "data_file.csv" containing news li
 
 Web Scraping Loop: The code iterates through each news link, attempts to fetch the HTML content, and checks for successful retrieval. If successful, it prints "success" and records the URL, status ("Pass"), and the number of paragraphs in the news article. If unsuccessful, it prints an error message and records the URL, status ("Fail"), and 0 for the number of paragraphs.
 
-##Step 2: Data Processing and Sentiment Analysis
+#Step 2: Data Processing and Sentiment Analysis
 
 Filtering: URLs with a status of "Pass" and a positive number of paragraphs are retained.
 
@@ -46,7 +46,7 @@ Text Processing: The paragraphs are tokenized, filtered for stop words, and sent
 
 Data Aggregation: The results of sentiment analysis are aggregated and visualized using ggplot2.
 
-##Step 3: Visualizations
+#Step 3: Visualizations
 
 Domain Frequency: The frequency of each domain is calculated and visualized.
 
